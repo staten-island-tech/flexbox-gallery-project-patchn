@@ -42,6 +42,17 @@ h1 {
   transition-timing-function: ease-in-out;
   transition: 0.5s cubic-bezier(0.215, 0.61, 0.355, 1);
 }
+#pool {
+  text-align: center;
+  font-size: 3rem;
+  padding-top: 4rem;
+  width: 45rem;
+  background-color: #78cad2;
+  height: 40rem;
+  border: 1rem solid #5497a7;
+  transition-timing-function: ease-in-out;
+  transition: 0.5s cubic-bezier(0.215, 0.61, 0.355, 1);
+}
 .galleryheader {
   background-color: #78cad2;
 }
@@ -57,4 +68,14 @@ h1 {
 
 .gallerycard:hover {
   transform: scale(1.1);
+}
+
+#pool:hover {
+  transform: rotate(360deg);
+}
+
+@media (max-width: 600px) {
+  .gallerycard {
+    background-color: black;
+  }
 }
